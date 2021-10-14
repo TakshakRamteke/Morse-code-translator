@@ -1,8 +1,8 @@
-import code_dictionary
+import code_dictionary              #importing the dictionary containing all the morse codes
 
 trial_code = input("Enter your morse code : ")
 
-letters = trial_code.split(' ')  ## Spliting the morse code into individual letters
+letters = trial_code.split(' ')     #Spliting the morse code into individual letters
 
 codes = code_dictionary.codes
 
